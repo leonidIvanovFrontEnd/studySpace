@@ -1,0 +1,26 @@
+{
+    "build": {
+        "html": "dist/",
+        "js": "dist/app/js/",
+        "css": "dist/app/css/",
+        "img": "dist/app/img/",
+        "svg": "dist/app/icons/",
+        "fonts": "dist/app/fonts/"
+    },
+    "src": {
+        "html": "src/*.html",
+        "js": "src/js/app.js",
+        "css": "src/sass/app.scss",
+        "img": "src/img/**/*.*",
+        "svg": "src/icons/**/*.svg",
+        "fonts": "src/fonts/**/*.*"
+    },
+    "watch": {
+        "html": "src/*.html",
+        "js": "src/js/**/*.js",
+        "css": "src/sass/**/*.scss",
+        "img": "src/img/**/*.*",
+        "svg": "src/icons/*.svg",
+        "fonts": "src/fonts/**/*.*"
+    }   
+}
